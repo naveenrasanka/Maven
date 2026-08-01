@@ -1,0 +1,21 @@
+mvn archetype:generate -DgroupId=com.example -DartifactId=my-maven-project -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+
+
+mvn archetype:generate -DgroupId=com.main -DartifactId=my-Test-App  -Darch etypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+
+
+mvn archetype:generate -DgroupId:com.packageName -DartifactId=projectName -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+
+-DgroupId:com.packageName  //can add file name   com.naveen ,com.app use reverse standard
+-DartifactId=projectName //can add project name
+
+//////////////////////////////////
+
+mvn clean    // delete target directory 
+mvn compile  // compile source code 
+mvn test     // execute project unit test  test=compile+test
+
+mvn package  // package the project into JAR or WAR file
+              package=package + compile + test
+
+mvn clean package              

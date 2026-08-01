@@ -18,4 +18,8 @@ mvn test     // execute project unit test  test=compile+test
 mvn package  // package the project into JAR or WAR file
               package=package + compile + test
 
-mvn clean package              
+mvn clean package   //fresh   package the project into JAR or WAR file
+
+mvn install   //Add project to local repository
+
+mvn clean install  //Fresh complete build

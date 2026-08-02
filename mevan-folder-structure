@@ -26,3 +26,8 @@ mvn clean install  //Fresh complete build
 
 
 mvn archetype:generate -DgroupId=com.naveen -DartifactId=my-Second-project -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+
+//maven repositories
+   1. Central repository  - officialy online repo
+   2. local repository  - on your machine
+   3. remote repository - company or third party

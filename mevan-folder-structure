@@ -6,7 +6,7 @@ mvn archetype:generate -DgroupId=com.main -DartifactId=my-Test-App  -Darch etype
 
 mvn archetype:generate -DgroupId:com.packageName -DartifactId=projectName -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
 
--DgroupId:com.packageName  //can add file name   com.naveen ,com.app use reverse standard
+-DgroupId:com.packageName  //can add file name   com.naveen ,com.app  use reverse standard
 -DartifactId=projectName //can add project name
 
 //////////////////////////////////
@@ -14,7 +14,7 @@ mvn archetype:generate -DgroupId:com.packageName -DartifactId=projectName -Darch
 mvn clean    // delete target directory 
 mvn compile  // compile source code 
 mvn test     // execute project unit test  test=compile+test
-
+ 
 mvn package  // package the project into JAR or WAR file
               package=package + compile + test
 
@@ -23,3 +23,6 @@ mvn clean package   //fresh   package the project into JAR or WAR file
 mvn install   //Add project to local repository
 
 mvn clean install  //Fresh complete build
+
+
+mvn archetype:generate -DgroupId=com.naveen -DartifactId=my-Second-project -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false

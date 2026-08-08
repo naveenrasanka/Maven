@@ -1,13 +1,13 @@
-package com.naveen.SpringbootMavenApp;
+package com.myNaveenApp.springbootGradle;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringbootMavenAppApplication {
+public class SpringbootGradleApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringbootMavenAppApplication.class, args);
+		SpringApplication.run(SpringbootGradleApplication.class, args);
 	}
 
 }
